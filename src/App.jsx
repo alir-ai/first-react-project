@@ -1,12 +1,15 @@
 import "./App.css";
 import CourseList from "./component/CourseList.jsx"
+import Footer from "./component/Footer.jsx";
+import Header from "./component/header.jsx";
 
 
 function App() {
   return (
     <div>
-      <h1>My Courses(3)</h1>
+      <Header/>
       <CourseList/>
+      <Footer/>
     </div>
   );
 }
